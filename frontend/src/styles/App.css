@@ -1,0 +1,12 @@
+/* App.css - Style głównego komponentu */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Główna zawartość */
+main {
+  flex: 1;
+  padding: 20px;
+}

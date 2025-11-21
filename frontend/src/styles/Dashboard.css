@@ -1,0 +1,143 @@
+/* Dashboard.css */
+.dashboard-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-page h1 {
+  margin-bottom: 2rem;
+}
+
+.dashboard-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-section h2 {
+  margin-bottom: 1.5rem;
+  color: #1428a0;
+}
+
+.profile-info p {
+  margin-bottom: 0.5rem;
+}
+
+.edit-btn, .save-btn {
+  background-color: #1428a0;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+.orders-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.order-status {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.status-pending { background-color: #ffc107; color: #000; }
+.status-paid { background-color: #17a2b8; color: white; }
+.status-shipped { background-color: #007bff; color: white; }
+.status-delivered { background-color: #28a745; color: white; }
+.status-cancelled { background-color: #dc3545; color: white; }
+
+.order-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1428a0;
+  margin-top: 1rem;
+}
+
+/* Admin Dashboard */
+.admin-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.admin-tabs button {
+  padding: 0.75rem 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.admin-tabs button.active {
+  background-color: #1428a0;
+  color: white;
+}
+
+.products-table, .orders-table {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.delete-btn-small, .view-btn-small {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.delete-btn-small {
+  background-color: #dc3545;
+  color: white;
+}
+
+.view-btn-small {
+  background-color: #007bff;
+  color: white;
+}
+
+.status-select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
