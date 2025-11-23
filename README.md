@@ -148,6 +148,10 @@ Projekt został zrealizowany zgodnie z metodyką Scrum:
 - Olga Janusz
 - Dominik Pawlaczyk
 
+## 🔗 Link do Repozytorium
+
+https://github.com/DominikPawlaczyk/SklepInternetowy
+
 ## 📄 Licencja
 
 Projekt edukacyjny - Politechnika, Informatyka, Semestr IV
